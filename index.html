@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- bootsrap styling -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href="#">W.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- section 1 -->
+    <div class="main-container">
+      <img class="main-img" src="./assets/images/image-web-3-desktop.jpg" />
+      <img
+        class="mobile-img hiden"
+        src="./assets/images/image-web-3-mobile.jpg"
+        alt="image3"
+      />
+
+      <!-- section 2 -->
+      <div class="flex box-1">
+        <div class="flex-1">
+          <h1 class="big-text">The Bright Future of Web 3.0?</h1>
+        </div>
+        <div class="flex-2">
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+
+          <button class="btn btn-danger">Read more</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 3 -->
+    <div class="flex float-container">
+      <h1 class="big-h">New</h1>
+      <div class="flex2-i">
+        <h4>Hydrogen VS Electric Cars</h4>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <hr />
+      </div>
+
+      <div class="flex2-i">
+        <h4>The Downsides of AI Artistry</h4>
+        <p>
+          What are the possible adverse effects of on-demand AI image
+          generation?
+        </p>
+        <hr />
+      </div>
+
+      <div class="flex2-i">
+        <h4>Is VC Funding Drying Up?</h4>
+        <p>
+          Private funding by VC firms is down 50% YOY. We take a look at what
+          that means.
+        </p>
+      </div>
+    </div>
+    <!-- section 4 -->
+    <div class="varieties flex">
+      <div class="v-item">
+        <img class="v-image" src="./assets/images/image-retro-pcs.jpg" />
+        <h2>01</h2>
+        <h6 class="active-text">Reviving Retro PCs</h6>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </div>
+
+      <div class="v-item">
+        <img class="v-image" src="./assets/images/image-top-laptops.jpg" />
+        <h2>02</h2>
+        <h6 class="active-text">Top 10 Laptops of 2022</h6>
+        <p>Our best picks for various needs and budgets.</p>
+      </div>
+
+      <div class="v-item">
+        <img class="v-image" src="./assets/images/image-gaming-growth.jpg" />
+        <h2>03</h2>
+        <h6 class="active-text">The Growth of Gaming</h6>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Igashi Michael</a>.
+    </div>
+  </body>
+</html>
